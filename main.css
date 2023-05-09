@@ -18,7 +18,7 @@
   display: flex;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5vw; 
+  font-size: 1.5vw;
   color: black;
 }
 .nav ul li {
@@ -97,11 +97,15 @@ button {
     width: 200px;
   }
   .blocks {
+    gap: 50px;
     flex-direction: column;
   }
 }
 @media screen and (max-width: 560px) {
   .block11 {
     flex-direction: column;
+  }
+  .img1 {
+    height: 600px;
   }
 }
