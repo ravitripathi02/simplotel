@@ -105,6 +105,9 @@ button {
   .block11 {
     flex-direction: column;
   }
+  .container{
+    top:50px;
+  }
 /*   .img1 {
     height: 600px;
   } */
